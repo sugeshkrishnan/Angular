@@ -1,0 +1,21 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=dev.env app.js",
+    "qa": "node --env-file=qa.env app.js",
+    "debug": "set DEBUG=express:* & node --env-file=dev.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sugesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jwt-simple": "^0.5.6"
+  }
+}
